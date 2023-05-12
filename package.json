@@ -1,0 +1,22 @@
+{
+  "name": "vue-task-reducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/vue-task-reducer.es.js",
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite ./examples --port=8080",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1",
+    "vitest": "^0.30.1"
+  },
+  "dependencies": {
+    "@vue/reactivity": "^3.2.47"
+  }
+}
